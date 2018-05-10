@@ -12,5 +12,7 @@
             "WaySearch\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "way-search/different-directions": "dev-master"
+    }
 }
