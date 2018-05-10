@@ -1,0 +1,16 @@
+{
+    "name": "way-search/different-directions",
+    "type": "library",
+    "authors": [
+        {
+            "name": "tanateros",
+            "email": "tanateros_pzas@bigmir.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WaySearch\\": "src/"
+        }
+    },
+    "require": {}
+}
