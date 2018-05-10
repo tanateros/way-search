@@ -21,9 +21,6 @@ class DirectionCase extends DomainEntity
     /** @var array $endPoint */
     protected $endPoints;
 
-    /** @var int $difference */
-    protected $difference = 0;
-
     /**
      * DirectionCase constructor.
      *

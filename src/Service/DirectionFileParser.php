@@ -15,9 +15,9 @@ class DirectionFileParser
     protected $directions = [];
 
     /**
-     * @param string $filePath
+     * DirectionFileParser constructor.
      *
-     * @return $this
+     * @param string $filePath
      */
     public function __construct(string $filePath)
     {
@@ -33,8 +33,6 @@ class DirectionFileParser
                 $this->directions[$case][] = $line;
             }
         }
-
-        return $this;
     }
 
     /**
