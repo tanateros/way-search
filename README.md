@@ -8,7 +8,7 @@ Require
 
 Example use with test data
 =
-<code>
+```php
 <?php
 
 require_once __DIR__ . "/vendor/autoload.php";
@@ -24,4 +24,4 @@ foreach ($cases as $case) {
     $diff = $case->getDifference();
     echo "{$point->x} {$point->y} {$diff}" . PHP_EOL;
 }
-</code> 
+```
