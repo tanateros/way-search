@@ -13,6 +13,6 @@
         }
     },
     "require": {
-        "way-search/different-directions": "dev-master"
+        "php": "~7.0"
     }
 }
