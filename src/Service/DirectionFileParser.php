@@ -19,7 +19,7 @@ class DirectionFileParser
      *
      * @return $this
      */
-    public function prepareData(string $filePath)
+    public function __construct(string $filePath)
     {
         $content = file($filePath);
         $case = 0;
